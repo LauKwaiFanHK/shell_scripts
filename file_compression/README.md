@@ -16,4 +16,5 @@ sh compress.sh
         - 2nd argument: an absolute path of the destination directory of the compressed zip file
         - 3rd argument: name of the zip file <br>
         e.g. <br> `sh /home/fan/Desktop/my_repos/shell-scripts/file_compression/helloWorld /home/fan/Desktop/my_repos/shell-scripts/file_compression/ compress_please` <br>
-        - The resulted file has the name `compress_please_20230618_154648.zip`
+        - Example of zip file: `compress_please_20230618_154648.zip`
+    - This script is more generic as I can use this script to compress any file and I can name it whatever I like.
