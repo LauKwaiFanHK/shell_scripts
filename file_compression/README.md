@@ -7,10 +7,10 @@ I can run this script anywhere using this command
 sh compress.sh
 ```
 
-- compress.sh
+- `compress.sh`
     - This script stores an absolute path of the folder that store helloWorld.txt, an absolute path of the destination directory, compress the folder into a zip file. This compressed zip file is named with a timestamp.
 
-- compress_take_arguments.sh
+- `compress_take_arguments.sh`
     - This script allows me to do pass 3 arguments to execute the file compression
         - 1st argument: an absolute path of the file or folder that I want to compress
         - 2nd argument: an absolute path of the destination directory of the compressed zip file
