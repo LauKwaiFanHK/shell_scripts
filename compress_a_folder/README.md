@@ -1,3 +1,5 @@
+# Shell script for file compression
+
 This set of script compress a helloWorld.txt file.
 
 I can run this script anywhere using this command
