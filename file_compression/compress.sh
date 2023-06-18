@@ -4,10 +4,10 @@
 chmod +x "$0"
 
 # Path to be compressed
-FOLDER_PATH="/home/fan/Desktop/my_repos/shell-scripts/helloWorld"
+FOLDER_PATH="/home/fan/Desktop/my_repos/shell-scripts/file_compression/helloWorld"
 
 # Path of destination directory of the compressed zip file
-DESTINATION_PATH="/home/fan/Desktop/my_repos/shell-scripts/"
+DESTINATION_PATH="/home/fan/Desktop/my_repos/shell-scripts/file_compression/"
 
 # Create current timestamp
 TIMESTAMP=$(date +"%Y%m%d_%H%M%S")
