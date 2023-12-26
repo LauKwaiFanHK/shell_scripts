@@ -8,7 +8,9 @@ extract_email_addresses(){
     # Regular expression for matching email addresses
     EMAIL_REGEX="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
 
-    # Use grep to find all matches in the text
+    # Use grep to extract a list of all emails in the text
+    # flag -E (–extended-regexp: Use extended regular expression)
+    # flag -o (–only-matching: Print email addresses only)
     grep -o -E $EMAIL_REGEX
 }
 
