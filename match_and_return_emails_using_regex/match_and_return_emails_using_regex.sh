@@ -12,12 +12,14 @@ extract_email_addresses(){
     grep -o -E $EMAIL_REGEX
 }
 
+# Define a function to execute git blame command and pass the output to the email extraction function
 git_blame_and_extract_emails() {
-    echo "$1"
-    # Define a function to execute git blame command and pass the output to the email extraction function
-    git blame "$1" | extract_email_addresses
+    # Take first argument of this function and pass it to git blame execution
+    # Pass the output of git blame to the extract_email_addresses function 
+    git blame -e "$1" | extract_email_addresses
 }
 
+# Take the file path to execute git blame from terminal as argument and pass it to the function
 EMAILS=$(git_blame_and_extract_emails "$1")
 
 echo "$EMAILS"
